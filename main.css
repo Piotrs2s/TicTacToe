@@ -1,0 +1,54 @@
+body
+{
+    background-color: rgb(167, 119, 48);
+    font-family: 'Gaegu', cursive;
+}
+
+h1
+{
+    text-align: center;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    font-size: 80px;    
+}
+
+#board
+{
+	width: 606px;
+	margin-left: auto;
+	margin-right: auto;
+    text-align: center;	
+
+}
+
+
+.field
+{
+    width: 200px;
+    height: 200px;
+    float: left;
+
+}
+
+.fieldVert 
+{
+    width: 200px;
+    height: 200px;
+    border-left: 2px solid #000000;
+    border-right: 2px solid #000000;
+    float: left;
+}
+
+.fieldHor 
+{
+    width: 200px;
+    height: 200px;
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+    float: left;
+}
+
+#f11
+{
+    border: 2px solid #000000;
+}
